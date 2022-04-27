@@ -173,7 +173,7 @@ body {
       color: aliceblue;
       display: flex;
       justify-content: space-between;
-      flex-direction: column; */
+      flex-direction: column; 
    }
     .offer {
       background-color: #301934;
