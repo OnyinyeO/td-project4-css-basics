@@ -143,62 +143,60 @@ body {
     padding: 5rem;
     color: ivory;
   }
-  
-  }
-  /* Services */
-  .offer-head {
-    padding: 2rem;
-    margin-left: 2rem;
-  }
-  .offer-head {
-    color: #663399;
-  }
+}
+/* Services */
+.offer-head {
+  padding: 2rem;
+  margin-left: 2rem;
+}
+.offer-head {
+  color: #663399;
+}
+.offer-b {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+.offer {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #3d1e43;
+  margin-top: 0%;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px 10px #f3f3f3;
+  font-size: 10px;
+}
+@media screen and (max-width: 650px) {
   .offer-b {
     color: aliceblue;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
   }
   .offer {
-    margin: 2rem;
-    padding: 2rem;
-    background-color: #3d1e43;
-    margin-top: 0%;
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: 0 0 20px 10px #f3f3f3;
-    font-size: 10px;
+    background-color: #301934;
   }
-   @media screen and (max-width: 650px) {
-    .offer-b {
-      color: aliceblue;
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column; 
-   }
-    .offer {
-      background-color: #301934;
-    }
-  }
-  /* footer */
-  .footer {
-    background-color: #86608e;
-    text-align: center;
-    padding: 2rem;
-    font-style: oblique;
-    color: whitesmoke;
-    font-size: 1rem;
-  }
-  .words {
-    display: flex;
-    flex-direction: column;
-    display: block;
-  }
-  .logo {
-    width: 1rem;
-    height: 1rem;
-    margin-inline: 0.5rem;
-  }
-  .copyright {
-    font-size: 7px;
-  }
+}
+/* footer */
+.footer {
+  background-color: #86608e;
+  text-align: center;
+  padding: 2rem;
+  font-style: oblique;
+  color: whitesmoke;
+  font-size: 1rem;
+}
+.words {
+  display: flex;
+  flex-direction: column;
+  display: block;
+}
+.logo {
+  width: 1rem;
+  height: 1rem;
+  margin-inline: 0.5rem;
+}
+.copyright {
+  font-size: 7px;
 }
